@@ -1,10 +1,13 @@
 body{
+  --base-animation-timer : .5s;
+  --normal-animation-timer : 1s;
   --background-color : rgb(255, 181, 181);
   --base-color-one : rgb(255, 83, 83);
   --base-color-two : rgb(47, 150, 0);
-  /* overflow: hidden; */
 }
 .main-container{
+  position: relative;
+  top: 0vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,7 +32,8 @@ body{
 }
 
 .title{
-
+  font-size: 3vw;
+  transition : top .5s, left .5s;
 }
 
 @media (max-width : 900px){
