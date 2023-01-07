@@ -5,7 +5,7 @@ export function Home(){
     return (
         <header className="home-container container">
             <h1 className="home-container__title title">
-                Bienvenid@ a Kremess
+                Kremess
             </h1>
             <p className="home-contrainer__paraph">
                 Parrafo del titulo
