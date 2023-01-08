@@ -3,7 +3,7 @@ import "./ClientesStyles.css"
 
 export function Clientes(){
     return (
-        <div className="clientes-container">
+        <div id="clientes" className="clientes-container">
             <h2 className="clientes-container__title title">
                 Clientes
             </h2>

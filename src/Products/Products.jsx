@@ -3,7 +3,7 @@ import "./ProductsStyles.css"
 
 export function Products(){
     return (
-        <div className="products-container">
+        <div  id="products" className="products-container">
             <h2 className="products-container__title title">
                 Productos
             </h2>

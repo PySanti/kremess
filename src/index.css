@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   --base-animation-timer : .5s;
   --normal-animation-timer : 1s;
@@ -12,12 +16,13 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 500vh;
   width: 100vw;
   background-color: var(--background-color);
+  scroll-snap-type: y proximity;
 }
 
 .main-container > div, header, footer{
+  scroll-snap-align: start;
   outline: 1px solid #000;
   height: 100vh;
   width: 100vw;

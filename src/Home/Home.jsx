@@ -3,7 +3,7 @@ import "./HomeStyles.css"
 
 export function Home(){
     return (
-        <header className="home-container container">
+        <header id="home" className="home-container container">
             <h1 className="home-container__title title">
                 Kremess
             </h1>

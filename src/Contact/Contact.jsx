@@ -3,7 +3,7 @@ import "./ContactStyles.css"
 
 export function Contact(){
     return (
-        <footer className="contact-container">
+        <footer id="contact" className="contact-container">
             <h2 className="contact-container__title title">
                 Contactanos
             </h2>
