@@ -1,0 +1,25 @@
+.product-item{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    border-radius: 10px;
+}
+.product-item__img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    user-select: none;
+}
+
+.product-item__name{
+    display: flex;
+    text-align: center;
+}
+
+
+.product-item__paraph{
+    text-align: center;
+}

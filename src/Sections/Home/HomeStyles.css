@@ -1,0 +1,20 @@
+.home-container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.home-container__paraph{
+    width: 20vw;
+    position: absolute;
+    left: 10vw;
+    top: 42vh;
+    font-size: 2vw;
+}
+
+.home-container__backimg{
+    position: absolute;
+    object-fit: cover;
+    opacity: .8;
+    width: 100vw;
+    height: 100vh;
+}

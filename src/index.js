@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import {Products} from "./Products/Products"
-import {Home} from "./Home/Home"
+import { Home } from "./Sections/Home/Home"
+import { Products } from './Sections/Products/Products';
+import { Clientes } from "./Sections/Clientes/Clientes"
+import { Contact} from "./Sections/Contact/Contact"
 import './index.css';
-import { Clientes } from './Clientes/Clientes';
-import { Contact } from './Contact/Contact';
+import { dragFunc } from './Sections/Products/func/dragFunc';
 
 export const mainContainerClassName = "main-container"
+
+export const productsListClassName = "products-container__products-list"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,4 +22,5 @@ root.render(
 );
 
 setTimeout(() => {
+  dragFunc()
 }, 0);
