@@ -1,0 +1,14 @@
+.publicity-msg-container{
+    --space-between : 4vh;
+    background-color: #9f9;
+    width: 100vw;
+    height: 40vh;
+    padding: 20px;
+    font-family: cursive;
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: var(--space-between);
+    margin-bottom: var(--space-between);
+}

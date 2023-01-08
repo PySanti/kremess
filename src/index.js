@@ -6,6 +6,7 @@ import { Clientes } from "./Sections/Clientes/Clientes"
 import { Contact} from "./Sections/Contact/Contact"
 import './index.css';
 import { dragFunc } from './Sections/Products/func/dragFunc';
+import { PublicityMsg } from './Comps/PublicityMsg/PublicityMsg';
 
 export const mainContainerClassName = "main-container"
 
@@ -16,6 +17,7 @@ root.render(
   <>
     <Home/>
     <Products/>
+    <PublicityMsg/>
     <Clientes/>
     <Contact/>
   </>
