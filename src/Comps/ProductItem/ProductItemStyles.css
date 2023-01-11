@@ -14,17 +14,9 @@
     height: 70%;
     border-top-left-radius: inherit;
     border-top-right-radius: inherit;
-    object-fit: cover;
+    object-fit: contain;
     user-select: none;
-    -moz-user-select: none;
-    -webkit-user-drag: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    -moz-user-select: -moz-none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    -o-user-select: none;
-    user-select: none;
+
 }
 
 .product-item__name{

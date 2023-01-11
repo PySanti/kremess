@@ -1,4 +1,5 @@
 General :
+    Agregar logo de la pagina
     Pendiente con SEO y recordar que la idea es vender
     Pendiente con responsive
     Agregar en la seccion de productos los ingredeientes de cada uno
@@ -13,6 +14,7 @@ Tecnico:
     Recordar agregar recetas
     Agregar efecto de blur a la backImg del home
     Hacer efecto de fixed a home
-    Agregar topLogo
+    Mejorar topLogo
     usar libreria para mejorar dragFunc
     Hacer funcion de scroll
+    Agregar funcion de cambio de imagenes a los productItem
