@@ -7,6 +7,7 @@ import { Contact} from "./Sections/Contact/Contact"
 import './index.css';
 import { dragFunc } from './Sections/Products/func/dragFunc';
 import { PublicityMsg } from './Comps/PublicityMsg/PublicityMsg';
+import { TopLogo } from './Comps/TopLogo/TopLogo';
 
 export const mainContainerClassName = "main-container"
 
@@ -16,6 +17,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
     <Home/>
+    <TopLogo/>
     <Products/>
     <PublicityMsg/>
     <Clientes/>
