@@ -1,0 +1,16 @@
+
+
+.contact-container > *{
+    margin-top:1vh;
+    display: flex;
+    flex-direction: row;
+}
+.phone-number{
+    display: flex;
+    flex-direction: column;
+}
+.icon{
+    object-fit: contain;
+    width: 3vw;
+    height: 3vh;
+}
