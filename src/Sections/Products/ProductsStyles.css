@@ -12,11 +12,10 @@
 
 .products-container__products-list{
     position: relative;
-    left : 0vw;
-    width: 200%;
-    height: 80%;
+    width: 50vw;
+    height: 80vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     cursor: grab;
+    background-color: #0f0;
 }

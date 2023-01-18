@@ -12,6 +12,7 @@ import { TopLogo } from './Comps/TopLogo/TopLogo';
 export const mainContainerClassName = "main-container"
 
 export const productsListClassName = "products-container__products-list"
+export const productItemClassName = "product-item"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

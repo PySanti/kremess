@@ -1,4 +1,6 @@
 General :
+    Cambiar enes 
+    Agregar descripcion a los productos
     Agregar logo de la pagina
     Pendiente con SEO y recordar que la idea es vender
     Pendiente con responsive
@@ -9,12 +11,13 @@ General :
     Pendiente con el pantone
     Logo de pestania
     Pendiente con las tipografias de los alts
+    Hacer un sistema de alts random para todas las imagenes
 
 Tecnico:
+    Agregar funcion de cambio de imagenes a los productItem
     Recordar agregar recetas
     Agregar efecto de blur a la backImg del home
     Hacer efecto de fixed a home
     Mejorar topLogo
     usar libreria para mejorar dragFunc
     Hacer funcion de scroll
-    Agregar funcion de cambio de imagenes a los productItem
