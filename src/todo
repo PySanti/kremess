@@ -1,11 +1,8 @@
 General :
     Cambiar enes 
-    Agregar descripcion a los productos
     Agregar logo de la pagina
     Pendiente con SEO y recordar que la idea es vender
     Pendiente con responsive
-    Agregar en la seccion de productos los ingredeientes de cada uno
-    Hacer scroll tipo tesla, usar eventos de touch para movile
     Hacer la cantidad de transiciones justa y necesaria para agregar modernismo pero quedarnos en la madurez
     Pendiente con el rendimiento
     Pendiente con el pantone
@@ -14,10 +11,13 @@ General :
     Hacer un sistema de alts random para todas las imagenes
 
 Tecnico:
-    Agregar funcion de cambio de imagenes a los productItem
-    Recordar agregar recetas
+    topBar:
+        Agregar transicion de color de fondo en el topBar para que sea transparente en el home
+        Mejorar topLogo
+        Agregar contacto en el topBar tipo avanti y agrandar el top bar con color de fondo
+    Home: 
+        Hacer efecto de fixed a home
+
+    Recordar agregar descripcion de productos 
     Agregar efecto de blur a la backImg del home
-    Hacer efecto de fixed a home
-    Mejorar topLogo
     usar libreria para mejorar dragFunc
-    Hacer funcion de scroll
