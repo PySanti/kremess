@@ -1,18 +1,21 @@
 .toplogo-container{
     width: 100vw;
-    height: 10vh;
+    height: 20vh;
     position: fixed;
     z-index: 9;
     top:1vh;
     left: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .toplogo-container__img{
+    margin-top: 4vh;
     height: 100%;
     width: 70%;
     object-fit: contain;
     opacity: 1;
+    align-self: center;
 }

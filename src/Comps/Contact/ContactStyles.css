@@ -1,9 +1,15 @@
-
-
+.contact-container{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 2vw;
+}
 .contact-container > *{
     margin-top:1vh;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 .phone-number{
     display: flex;
@@ -13,4 +19,9 @@
     object-fit: contain;
     width: 3vw;
     height: 3vh;
+}
+
+.ig-dir{
+    text-decoration: none;
+    color : #000;
 }

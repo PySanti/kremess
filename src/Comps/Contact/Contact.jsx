@@ -7,8 +7,9 @@ export function Contact(props){
             <div className="contact-container__phone">
                 <img className="phone-logo icon" src="./icons/phone.png"/>
                 <div className="phone-number"> 
-                    +58 412-7273323 
-                    0212-2580805
+                    <div>
+                        +58 412-7273323 
+                    </div>
                 </div>
             </div>
             <div className="contact-container__email">
