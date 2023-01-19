@@ -7,11 +7,13 @@ import './index.css';
 import { dragFunc } from './Sections/Products/func/dragFunc';
 import { PublicityMsg } from './Comps/PublicityMsg/PublicityMsg';
 import { TopLogo } from './Comps/TopLogo/TopLogo';
+import { topLogoScrollEfect } from './Comps/TopLogo/func/topLogoScrollEfect';
 
 export const mainContainerClassName = "main-container"
 
 export const productsListClassName = "products-container__products-list"
 export const productItemClassName = "product-item"
+export const topLogoClassName = "toplogo-container"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -26,4 +28,5 @@ root.render(
 
 setTimeout(() => {
   dragFunc()
+  topLogoScrollEfect()
 }, 0);
