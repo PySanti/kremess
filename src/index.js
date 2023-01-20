@@ -14,6 +14,7 @@ export const mainContainerClassName = "main-container"
 export const productsListClassName = "products-container__products-list"
 export const productItemClassName = "product-item"
 export const topLogoClassName = "toplogo-container"
+export const topLogoACTIVATED = "toplogo-container__ACTIVATED"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
