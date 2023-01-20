@@ -1,7 +1,9 @@
-.client{
+.client__logo{
     object-fit: contain;
-    width: 5vw;
-    height: 5vh;
+    width: 20vw;
+    height: 20vh;
+}
+.client{
     background-color: #0f0;
     display: flex;
     flex-direction: row;

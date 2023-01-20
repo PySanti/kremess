@@ -4,6 +4,7 @@ import "./ClientStyles.css"
 
 
 export function Client({img}){
+    console.log(img)
     return (
         <div className="client">
             <img className="client__logo" src={img} alt="hola"/>

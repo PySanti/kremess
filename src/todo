@@ -11,13 +11,10 @@ General :
     Hacer un sistema de alts random para todas las imagenes
 
 Tecnico:
-    topBar:
-        Agregar transicion de color de fondo en el topBar para que sea transparente en el home
-        Mejorar topLogo
-        Agregar contacto en el topBar tipo avanti y agrandar el top bar con color de fondo
+    terminar productos, no hacer drag func
+    terminar clientes
+    mejorar plicityMsg
     Home: 
         Hacer efecto de fixed a home
-
     Recordar agregar descripcion de productos 
     Agregar efecto de blur a la backImg del home
-    usar libreria para mejorar dragFunc
