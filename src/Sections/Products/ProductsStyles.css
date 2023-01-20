@@ -3,19 +3,18 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
     width: 100vw;
-    height: 100vh;
     overflow: hidden;
 }
 
 .products-container__products-list{
     position: relative;
-    width: 50vw;
-    height: 80vh;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
     cursor: grab;
     background-color: #0f0;
 }

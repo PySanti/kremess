@@ -8,3 +8,8 @@
     height: 50vh;
 }
 
+.clientes-container__list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2vw;
+}

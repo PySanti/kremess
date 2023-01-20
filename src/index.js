@@ -28,6 +28,6 @@ root.render(
 );
 
 setTimeout(() => {
-  dragFunc()
+  // dragFunc()
   topLogoScrollEfect()
 }, 0);

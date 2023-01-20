@@ -7,7 +7,6 @@
     justify-content: center;
     min-width: 50%;
     min-height: 100%;
-    border-radius: 10px;
     overflow: hidden;
     transition: transform .5s, margin .5s;
 }
@@ -23,11 +22,12 @@
 .product-item__backimg{
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    border-top-left-radius: inherit;
-    border-top-right-radius: inherit;
-    object-fit: cover;
+    width: 20%;
+    height: 20%;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     user-select: none;
     transition: opacity .3s;
 }
