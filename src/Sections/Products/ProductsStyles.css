@@ -1,10 +1,11 @@
 .products-container{
     margin-top: 5vh;
+    width: 80vw;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
+    justify-content: center;
     overflow: hidden;
 }
 
@@ -12,9 +13,9 @@
     position: relative;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
     cursor: grab;
     background-color: #0f0;
 }
+

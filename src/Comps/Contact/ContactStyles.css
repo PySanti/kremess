@@ -11,10 +11,7 @@
     flex-direction: row;
     align-items: center;
 }
-.phone-number{
-    display: flex;
-    flex-direction: column;
-}
+
 .icon{
     object-fit: contain;
     width: 3vw;

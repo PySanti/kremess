@@ -10,7 +10,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition : background-color .2s;
+    transition : top .5s;
     border-bottom-left-radius: var(--bottom-border-radius);
     border-bottom-right-radius: var(--bottom-border-radius);
 }
