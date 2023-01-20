@@ -3,13 +3,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    background-color: #f00;
     width: 100vw;
     height: 50vh;
 }
 
 .clientes-container__list{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 2vw;
 }
