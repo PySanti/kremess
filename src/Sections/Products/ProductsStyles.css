@@ -1,21 +1,23 @@
 .products-container{
-    margin-top: 5vh;
-    width: 80vw;
+    --margin : 40vh;
+    margin-top: var(--margin);
+    margin-bottom: var(--margin);
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     overflow: hidden;
 }
-
+.products-container__title{
+    margin-bottom:20vh;
+}
 .products-container__products-list{
     position: relative;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+
     cursor: grab;
-    background-color: #0f0;
 }
 
