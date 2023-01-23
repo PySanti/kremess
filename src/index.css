@@ -1,24 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&display=swap');
+
 html{
   scroll-behavior: smooth;
 }
 
 body{
+  --base-font : 'Roboto Mono', monospace;
   --base-animation-timer : .5s;
   --normal-animation-timer : 1s;
   --background-color : rgb(255, 181, 181);
-  --base-color-one : rgb(255, 83, 83);
-  --base-color-two : rgb(47, 150, 0);
+  --base-color-one : #ed2127;
+  --base-color-two : #2f9c54;
 }
 
 *{
   margin: 0;
   padding: 0;
   user-select: none;
+  font-family: var(--base-font);
 }
 
 .title{
   font-size: 3vw;
   transition : top .5s, left .5s;
+}
+
+.parallax{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (max-width : 900px){

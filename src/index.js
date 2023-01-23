@@ -4,7 +4,6 @@ import { Home } from "./Sections/Home/Home"
 import { Products } from './Sections/Products/Products';
 import { Clientes } from "./Sections/Clientes/Clientes"
 import './index.css';
-import { dragFunc } from './Sections/Products/func/dragFunc';
 import { PublicityMsg } from './Comps/PublicityMsg/PublicityMsg';
 import { TopLogo } from './Comps/TopLogo/TopLogo';
 import { topLogoScrollEfect } from './Comps/TopLogo/func/topLogoScrollEfect';
@@ -28,6 +27,5 @@ root.render(
 );
 
 setTimeout(() => {
-  // dragFunc()
   topLogoScrollEfect()
 }, 0);
