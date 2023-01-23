@@ -18,12 +18,18 @@
 }
 
 .home-container__backimg{
+    background-image: url("../../..//public//images/Empanadas/1.jpg");
     position: absolute;
     object-fit: cover;
     opacity: .8;
     width: 100vw;
-    height: 100vh;
+    height: 150vh;
     filter: blur(5px);
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
