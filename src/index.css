@@ -5,7 +5,7 @@ html{
 }
 
 body{
-  --base-font : 'Roboto Mono', monospace;
+  --base-font : "Purple Smile";
   --base-animation-timer : .5s;
   --normal-animation-timer : 1s;
   --background-color : rgb(255, 181, 181);
