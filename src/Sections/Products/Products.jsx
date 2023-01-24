@@ -39,7 +39,7 @@ export function Products(){
                 />
 
                 <ProductItem 
-                name="Pan de perro caliente" 
+                name="Pan para perro caliente" 
                 img={imgsPath+"/Perro/"+mainImg}
                 descr="Disponible en presentacion de 8 unidades (450 gramos)."
                 type="1"
