@@ -5,7 +5,8 @@ html{
 }
 
 body{
-  --base-font : "Purple Smile";
+  --base-font-2 : "Better Together";
+  --base-font : "CHICKEN PIE";
   --base-animation-timer : .5s;
   --normal-animation-timer : 1s;
   --background-color : rgb(255, 181, 181);
