@@ -27,6 +27,8 @@ body{
   color : var(--base-color-one)
 }
 
+
+
 .parallax{
   background-attachment: fixed;
   background-position: center;

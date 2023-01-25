@@ -1,8 +1,7 @@
 import React from "react";
 import "./ProductItemStyles.css"
 
-
-export function ProductItem({img, name, descr, type}){
+export function ProductItem({img, name, descr, type, msg}){
     const style = {
         backgroundImage : `url(${img})`,
         backgroundSize : "cover"

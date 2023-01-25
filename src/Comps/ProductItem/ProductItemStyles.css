@@ -1,12 +1,16 @@
+
 .product-item{
     --content-margin : 10vw;
+    margin-top : var(--content-margin);
+    margin-bottom : var(--content-margin);
+    border-radius: 20px;
     width: 100vw;
     height: 100vh;
     display: flex;
-    position: relative;
     flex-direction: row;
-    align-items: center;
+    position: relative;
     justify-content: space-around;
+    align-items: center;
     overflow: hidden;
 }
 .product-item__img{
@@ -14,7 +18,7 @@
     width: 50%;
     height: 50%;
     user-select: none;
-    filter: drop-shadow(0px 0px 10px var(--base-color-two));
+    box-shadow: 0px 0px 10px var(--base-color-two);
     border-radius: 20px;
     transition: opacity .3s;
 }

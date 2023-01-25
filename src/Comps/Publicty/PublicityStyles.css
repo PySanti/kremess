@@ -1,0 +1,13 @@
+.publicity{
+    width: 50%;
+    height: 30%;
+    font-size: 5vw;
+    font-family : var(--base-font-2);
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-right: 4px solid var(--base-color-two);
+    padding-right: 2vw;
+    border-radius: 10px;
+}

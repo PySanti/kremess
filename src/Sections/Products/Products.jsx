@@ -1,5 +1,6 @@
 import React from "react"
 import { ProductItem } from "../../Comps/ProductItem/ProductItem"
+import {Publicity} from "../../Comps/Publicty/Publicity"
 import "./ProductsStyles.css"
 
 export function Products(){
@@ -17,12 +18,15 @@ export function Products(){
                 type="1"
                 />
 
+
                 <ProductItem 
                 name="Empanaditas de trigo rellenas de queso" 
                 img={imgsPath+"/Empanadas/"+mainImg}
                 descr="Disponible en presentacion de 36 unidades."
                 type="2"
                 />
+
+                <Publicity msg="Kremess es definitivamente sinonimo de calidad"/>
 
                 <ProductItem 
                 name="Masa de hojaldre" 
@@ -31,12 +35,15 @@ export function Products(){
                 type="1"
                 />
 
+
                 <ProductItem 
                 name="Palmeritas de hojaldre horneados" 
                 img={imgsPath+"/Palmeritas/"+mainImg}
                 descr="Disponible en presentacion de  250 gramos."
                 type="2"
                 />
+
+                <Publicity msg="En lo personal, mi producto favorito de la marca son las empanaditas de queso. Me encantan !"/>
 
                 <ProductItem 
                 name="Pan para perro caliente" 
@@ -52,6 +59,8 @@ export function Products(){
                 type="2"
                 />
 
+                <Publicity msg="Sinceramente, me parece la mejor marca de productos alimenticios de Venezuela"/>
+
                 <ProductItem 
                 name="Tequenios" 
                 img={imgsPath+"/Tequenios/"+mainImg}
@@ -65,6 +74,8 @@ export function Products(){
                 descr="Disponible en presentacion de 160 gramos."
                 type="2"
                 />
+
+                <Publicity msg="Sus tequeños son los de mejor calidad de toda Venezuela"/>
 
                 <ProductItem 
                 name="Crotone" 
