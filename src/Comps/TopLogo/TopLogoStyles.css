@@ -1,8 +1,8 @@
 .toplogo-container{
     --bottom-border-radius : 10%;
+    background-color: var(--base-color-two);
     width: 100vw;
-    height: 20vh;
-    position: fixed;
+    height: 70vh;
     z-index: 9;
     top:0vh;
     left: 0;
@@ -11,8 +11,6 @@
     justify-content: center;
     align-items: center;
     transition : top .5s;
-    border-bottom-left-radius: var(--bottom-border-radius);
-    border-bottom-right-radius: var(--bottom-border-radius);
 
 }
 

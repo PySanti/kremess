@@ -9,7 +9,7 @@ export function Products(){
     const imgsPath = "./images/"
     return (
         <section  id="products" className="products-container">
-            <div className="products-container__title">Productos</div>
+            <div className="products-container__title titlebar">Productos</div>
             <ul className="products-container__products-list">
                 <ProductItem 
                 name="Pan de sandwich Blanco Sin Concha" 

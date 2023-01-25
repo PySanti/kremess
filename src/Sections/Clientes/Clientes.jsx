@@ -6,9 +6,7 @@ export function Clientes(){
     const imgsTrag = "./clientesLogos/"
     return (
         <section id="clientes" className="clientes-container">
-            <h2 className="clientes-container__title title">
-                Clientes
-            </h2>
+            <h2 className="clientes-container__title titlebar">Donde encontrarnos</h2>
             <ul className="clientes-container__list">
                 <Client img={imgsTrag+"gamma.png"}/>
                 <Client img={imgsTrag+"cm.jpg"}/>

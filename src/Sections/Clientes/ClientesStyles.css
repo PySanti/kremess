@@ -4,7 +4,8 @@
     align-items: center;
     justify-content: space-around;
     width: 100vw;
-    height: 50vh;
+    height: 100vh;
+    margin-bottom: 30vh;
 }
 
 .clientes-container__list{
