@@ -11,7 +11,7 @@ export function Products(){
             <div className="products-container__title titlebar">Productos</div>
             <ul className="products-container__products-list">
                 <ProductItem 
-                name="Pan de sandwich Blanco Sin Concha" 
+                name="PAN DE SANDWICH BLANCO SIN CONCHA" 
                 img={imgsPath+"/Sandwich/"+mainImg}
                 backimg={imgsPath+"/Sandwich/"+backImg}
                 descr="Disponible en presentacion de 600 gramos."
@@ -20,7 +20,7 @@ export function Products(){
 
 
                 <ProductItem 
-                name="Empanaditas de trigo rellenas de queso" 
+                name="EMPANADITAS DE TRIGO RELLENAS DE QUESO" 
                 img={imgsPath+"/Empanadas/"+mainImg}
                 backimg={imgsPath+"/Empanadas/"+backImg}
                 descr="Disponible en presentacion de 36 unidades."
@@ -29,7 +29,7 @@ export function Products(){
 
 
                 <ProductItem 
-                name="Masa de hojaldre" 
+                name="MASA DE HOJALDRE" 
                 img={imgsPath+"/Hojaldre/"+mainImg}
                 backimg={imgsPath+"/Hojaldre/"+backImg}
                 descr="Disponible en presentacion de 1 kilo."
@@ -38,7 +38,7 @@ export function Products(){
 
 
                 <ProductItem 
-                name="Palmeritas de hojaldre horneados" 
+                name="PALMERITAS DE HOJALDRE" 
                 img={imgsPath+"/Palmeritas/"+mainImg}
                 backimg={imgsPath+"/Palmeritas/"+backImg}
                 descr="Disponible en presentacion de  250 gramos."
@@ -47,7 +47,7 @@ export function Products(){
 
 
                 <ProductItem 
-                name="Pan para perro caliente" 
+                name="PAN DE PERRO CALIENTE" 
                 img={imgsPath+"/Perro/"+mainImg}
                 backimg={imgsPath+"/Perro/"+backImg}
                 descr="Disponible en presentacion de 8 unidades (450 gramos)."
@@ -55,7 +55,7 @@ export function Products(){
                 />
 
                 <ProductItem 
-                name="Pan de Hamburguesa" 
+                name="PAN DE HAMBURGUESA" 
                 img={imgsPath+"/Hamburguesa/"+mainImg}
                 backimg={imgsPath+"/Hamburguesa/"+backImg}
                 descr="Disponible en presentacion de 8 unidades (600 gramos)."
@@ -64,7 +64,7 @@ export function Products(){
 
 
                 <ProductItem 
-                name="Tequenios" 
+                name="TEQUEÑOS" 
                 img={imgsPath+"/Tequenios/"+mainImg}
                 backimg={imgsPath+"/Tequenios/"+backImg}
                 descr="Elaborados con materia prima de optima calidad, queso blanco pasteurizado bajo en sal. Disponible en presentacion de 36, 24 y 12 unidades."
@@ -72,7 +72,7 @@ export function Products(){
                 />
 
                 <ProductItem 
-                name="Mini Tostadas" 
+                name="MINI TOSTADAS" 
                 img={imgsPath+"/Tostadas/"+mainImg}
                 backimg={imgsPath+"/Tostadas/"+backImg}
                 descr="Disponible en presentacion de 160 gramos."
@@ -80,15 +80,15 @@ export function Products(){
                 />
 
                 <ProductItem 
-                name="Crotone" 
+                name="CROUTONE" 
                 img={imgsPath+"/Crotone/"+mainImg}
-                backimg={imgsPath+"/Crotone/"+backImg}
+                backimg={imgsPath+"/Crotone/"+mainImg}
                 descr="Disponible en presentacion de 160 gramos."
                 type="1"
                 />
 
                 <ProductItem 
-                name="Pan molido" 
+                name="PAN MOLIDO" 
                 img={imgsPath+"/Molido/"+mainImg}
                 backimg={imgsPath+"/Molido/"+backImg}
                 descr="Disponible en presenacion de 300 gramos."
