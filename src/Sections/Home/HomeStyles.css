@@ -17,15 +17,13 @@
 }
 
 .home-container__backimg{
+    background-size: contain;
     background-image: url("../../..//public//images/Empanadas/1.jpg");
     position: absolute;
-    object-fit: cover;
     opacity: .8;
     width: 100vw;
     height: 100vh;
     filter: blur(5px);
-
-
 }
 
 

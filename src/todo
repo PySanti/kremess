@@ -11,10 +11,10 @@ General :
     Hacer un sistema de alts random para todas las imagenes
 
 Tecnico:
-    terminar productos, no hacer drag func
+    Agregar transiciones
+    Agregar responsive
+    Agregar mas color a la pagina, mas detalles a la seccion de productos
+    mejorar imagenes del product item
+    Cambiar imagen de home
     terminar clientes
     mejorar plicityMsg
-    Home: 
-        Hacer efecto de fixed a home
-    Recordar agregar descripcion de productos 
-    Agregar efecto de blur a la backImg del home
