@@ -8,6 +8,8 @@ export function activateProducts(productClassName){
             productTop = productsList[i].getBoundingClientRect().top
             if (productTop < (window.innerHeight/3)){
                 productsList[i].classList.add(productItemACTIVATEDClassName)
+            } else {
+                productsList[i].classList.remove(productItemACTIVATEDClassName)
             }
         }
     })
