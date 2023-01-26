@@ -9,18 +9,19 @@
 
 
 .home-container__paraph{
-    width: 20vw;
+    text-align: center;
+    width: 50vw;
     position: absolute;
-    left: 10vw;
+    left: 25vw;
     top: 35vh;
-    font-size: 2vw;
+    font-size: 4vw;
 }
 
 .home-container__backimg{
     background-size: contain;
     background-image: url("../../..//public//images/Empanadas/1.jpg");
     position: absolute;
-    opacity: .8;
+    opacity: .5;
     width: 100vw;
     height: 100vh;
     filter: blur(5px);

@@ -22,7 +22,7 @@ export function Products(){
                 <ProductItem 
                 name="EMPANADITAS DE TRIGO RELLENAS DE QUESO" 
                 img={imgsPath+"/Empanadas/"+mainImg}
-                backimg={imgsPath+"/Empanadas/"+backImg}
+                backimg={imgsPath+"/Empanadas/4.jpg"}
                 descr="Disponible en presentacion de 36 unidades."
                 type="2"
                 />
@@ -31,7 +31,7 @@ export function Products(){
                 <ProductItem 
                 name="MASA DE HOJALDRE" 
                 img={imgsPath+"/Hojaldre/"+mainImg}
-                backimg={imgsPath+"/Hojaldre/"+backImg}
+                backimg={imgsPath+"/Hojaldre/1.jpg"}
                 descr="Disponible en presentacion de 1 kilo."
                 type="1"
                 />
@@ -40,7 +40,7 @@ export function Products(){
                 <ProductItem 
                 name="PALMERITAS DE HOJALDRE" 
                 img={imgsPath+"/Palmeritas/"+mainImg}
-                backimg={imgsPath+"/Palmeritas/"+backImg}
+                backimg={imgsPath+"/Palmeritas/3.jpg"}
                 descr="Disponible en presentacion de  250 gramos."
                 type="2"
                 />
@@ -49,7 +49,7 @@ export function Products(){
                 <ProductItem 
                 name="PAN PARA PERRO CALIENTE" 
                 img={imgsPath+"/Perro/"+mainImg}
-                backimg={imgsPath+"/Perro/"+backImg}
+                backimg={imgsPath+"/Perro/2.jpg"}
                 descr="Disponible en presentacion de 8 unidades (450 gramos)."
                 type="1"
                 />
@@ -57,7 +57,7 @@ export function Products(){
                 <ProductItem 
                 name="PAN PARA HAMBURGUESA" 
                 img={imgsPath+"/Hamburguesa/"+mainImg}
-                backimg={imgsPath+"/Hamburguesa/"+backImg}
+                backimg={imgsPath+"/Hamburguesa/2.jpg"}
                 descr="Disponible en presentacion de 8 unidades (600 gramos)."
                 type="2"
                 />
@@ -66,7 +66,7 @@ export function Products(){
                 <ProductItem 
                 name="TEQUEÑOS DE HOJALDRE" 
                 img={imgsPath+"/Tequenios/"+mainImg}
-                backimg={imgsPath+"/Tequenios/"+backImg}
+                backimg={imgsPath+"/Tequenios/5.jpg"}
                 descr="Elaborados con materia prima de optima calidad, queso blanco pasteurizado bajo en sal. Disponible en presentacion de 36, 24 y 12 unidades."
                 type="1"
                 />

@@ -1,7 +1,6 @@
 .contact-container{
-    width: 90%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     margin-left: 2vw;
 }
@@ -21,4 +20,9 @@
 .ig-dir{
     text-decoration: none;
     color : #000;
+}
+
+.contact{
+    font-size: 1.5vw;
+    margin-left: 1vw;
 }
