@@ -74,7 +74,7 @@ export function Products(){
                 <ProductItem 
                 name="MINI TOSTADAS" 
                 img={imgsPath+"/Tostadas/"+mainImg}
-                backimg={imgsPath+"/Tostadas/"+backImg}
+                backimg={imgsPath+"/Tostadas/9.jpg"}
                 descr="Disponible en presentacion de 160 gramos."
                 type="2"
                 />
@@ -90,7 +90,7 @@ export function Products(){
                 <ProductItem 
                 name="PAN MOLIDO" 
                 img={imgsPath+"/Molido/"+mainImg}
-                backimg={imgsPath+"/Molido/"+backImg}
+                backimg={imgsPath+"/Molido/5.jpg"}
                 descr="Disponible en presenacion de 300 gramos."
                 type="2"
                 />
