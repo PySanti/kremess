@@ -35,6 +35,9 @@
 
 .text-1{
     color : var(--base-color-one);
+    object-fit: contain;
+    width: 20vw;
+    height: 20vh;
 }
 
 .text-1{
