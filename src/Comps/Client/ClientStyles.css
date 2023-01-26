@@ -3,6 +3,11 @@
     height: 20vh;
     object-fit: contain;
     cursor : grab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: var(--base-font-2);
     transition: filter .5s, margin .5s ;
 }
 
@@ -11,6 +16,7 @@
     margin-left : 2vw;
 }
 
-.client__ref{
+.client-ref{
+    color : #000;
     text-decoration: none;
 }

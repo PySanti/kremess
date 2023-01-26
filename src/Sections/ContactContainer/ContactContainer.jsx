@@ -7,7 +7,7 @@ export function ContactContainer(){
     return (
         <footer className="contact-container">
             <Contact/>
-            <img src="./images/logo.png" alt="Kremess"className="contact-container__img"/>
+            <img src="./images/logo.png" alt="Puedes contactarnos por nuestras diferentes fuentes."className="contact-container__img"/>
         </footer>
     )
 }

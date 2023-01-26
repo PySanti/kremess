@@ -13,6 +13,7 @@
 .contact-container__img{
     height: 30%;
     width: 30%;
+
     object-fit: contain;
     opacity: 1;
     align-self: center;

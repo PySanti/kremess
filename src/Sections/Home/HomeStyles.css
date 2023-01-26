@@ -16,6 +16,10 @@
     background-size: contain;
     background-image: url("../../..//public//images/Empanadas/1.jpg");
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--base-font-2);
     opacity: .5;
     width: 100vw;
     height: 100vh;
