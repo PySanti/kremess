@@ -12,6 +12,7 @@ body{
   --background-color : rgb(255, 181, 181);
   --base-color-one : #ed2127;
   --base-color-two : #2f9c54;
+  overflow-x: hidden;
 }
 
 *{

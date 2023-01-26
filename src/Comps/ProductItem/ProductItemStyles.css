@@ -3,7 +3,6 @@
     --content-margin : 10vw;
     --border : 2px solid var(--base-color-one);
     --animation-timer : .5s;
-    border-radius: 20px;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -19,8 +18,8 @@
     position: relative;
     object-fit: contain;
     display: flex;
-    width: 50%;
-    height: 50%;
+    width: 60%;
+    height:60%;
     user-select: none;
     filter: drop-shadow(0px 0px 10px #000);
     border-radius: 20px;

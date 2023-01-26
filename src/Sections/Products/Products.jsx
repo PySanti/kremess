@@ -47,7 +47,7 @@ export function Products(){
 
 
                 <ProductItem 
-                name="PAN DE PERRO CALIENTE" 
+                name="PAN PARA PERRO CALIENTE" 
                 img={imgsPath+"/Perro/"+mainImg}
                 backimg={imgsPath+"/Perro/"+backImg}
                 descr="Disponible en presentacion de 8 unidades (450 gramos)."
@@ -55,7 +55,7 @@ export function Products(){
                 />
 
                 <ProductItem 
-                name="PAN DE HAMBURGUESA" 
+                name="PAN PARA HAMBURGUESA" 
                 img={imgsPath+"/Hamburguesa/"+mainImg}
                 backimg={imgsPath+"/Hamburguesa/"+backImg}
                 descr="Disponible en presentacion de 8 unidades (600 gramos)."
@@ -64,7 +64,7 @@ export function Products(){
 
 
                 <ProductItem 
-                name="TEQUEÑOS" 
+                name="TEQUEÑOS DE HOJALDRE" 
                 img={imgsPath+"/Tequenios/"+mainImg}
                 backimg={imgsPath+"/Tequenios/"+backImg}
                 descr="Elaborados con materia prima de optima calidad, queso blanco pasteurizado bajo en sal. Disponible en presentacion de 36, 24 y 12 unidades."
@@ -80,7 +80,7 @@ export function Products(){
                 />
 
                 <ProductItem 
-                name="CROUTONE" 
+                name="CROUTON" 
                 img={imgsPath+"/Crotone/"+mainImg}
                 backimg={imgsPath+"/Crotone/"+mainImg}
                 descr="Disponible en presentacion de 160 gramos."

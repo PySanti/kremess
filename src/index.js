@@ -17,6 +17,7 @@ export const productItemImageClassName = "product-item__img"
 export const productItemImageCLICKEDClassName = "product-item__img__CLICKED"
 export const topLogoClassName = "toplogo-container"
 export const topLogoACTIVATED = "toplogo-container__ACTIVATED"
+export const clientContainerClassName = "clientes-container__list"
 
 
 
