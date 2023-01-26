@@ -1,4 +1,4 @@
-.toplogo-container{
+.contact-container{
     --bottom-border-radius : 10%;
     background-color: var(--base-color-two);
     width: 100vw;
@@ -8,10 +8,9 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    transition : top .5s;
 }
 
-.toplogo-container__img{
+.contact-container__img{
     height: 30%;
     width: 30%;
     object-fit: contain;

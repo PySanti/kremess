@@ -3,11 +3,6 @@
     height: 100vh;
 }
 
-.home-container *{
-    transition : filter .5s;
-}
-
-
 .home-container__paraph{
     text-align: center;
     width: 50vw;
@@ -25,6 +20,11 @@
     width: 100vw;
     height: 100vh;
     filter: blur(5px);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition : filter .5s;
 }
 
 

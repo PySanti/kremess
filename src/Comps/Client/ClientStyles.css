@@ -1,10 +1,9 @@
 .client__logo{
     width: 20vw;
     height: 20vh;
-    border-radius: 20px;
     object-fit: contain;
     cursor : grab;
-    transition: transform .5s,filter .5s, margin .5s ;
+    transition: filter .5s, margin .5s ;
 }
 
 .client__logo:hover{

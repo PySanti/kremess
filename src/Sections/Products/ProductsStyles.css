@@ -1,31 +1,12 @@
 .products-container{
-    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    overflow: hidden;
 }
 
 .products-container__products-list{
-    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
-
-.products-container__title{
-    background-color: var(--base-color-two);
-    color: #fff;
-    width: 100vw;
-    height: 30vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 3vw;
-    font-family: var(--base-font);
-    z-index: 9;
-}
-

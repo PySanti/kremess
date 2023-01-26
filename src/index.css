@@ -1,18 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&display=swap');
 
-html{
-  scroll-behavior: smooth;
-}
-
 body{
-  --base-font-2 : "Better Together";
   --base-font : "CHICKEN PIE";
-  --base-animation-timer : .5s;
-  --normal-animation-timer : 1s;
-  --background-color : rgb(255, 181, 181);
   --base-color-one : #ed2127;
   --base-color-two : #2f9c54;
-  overflow-x: hidden;
 }
 
 *{
@@ -24,7 +15,6 @@ body{
 
 .title{
   font-size: 3vw;
-  transition : top .5s, left .5s;
   color : var(--base-color-one)
 }
 
@@ -43,13 +33,5 @@ body{
 }
 
 
-.parallax{
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
-@media (max-width : 900px){
 
-}
