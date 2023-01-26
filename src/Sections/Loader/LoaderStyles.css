@@ -2,6 +2,7 @@
     --top-moving : 8%;
     --left-moving : 10%;
     --animation-timer : .5s;
+    --animation-duration : 2s;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -34,13 +35,16 @@
 
 .text-1{
     color : var(--base-color-one);
+}
+
+.text-1{
     animation-name: animationText1;
-    animation-duration: 2s;
+    animation-duration: var(--animation-duration);
     animation-iteration-count: infinite;
 }
 .text-2{
     animation-name: animationText2;
-    animation-duration: 2s;
+    animation-duration: var(--animation-duration);
     animation-iteration-count: infinite;
 }
 
@@ -50,7 +54,7 @@
     background-color: var(--base-color-two);
     transition: width var(--animation-timer), height var(--animation-timer);
     animation-name: midBar;
-    animation-duration: 2s;
+    animation-duration: var(--animation-duration);
     animation-iteration-count: infinite;
     animation-delay: 1s;
 }
