@@ -3,8 +3,10 @@ import "./ClientStyles.css"
 
 
 
-export function Client({img}){
+export function Client({img, re}){
     return (
-        <img className="client__logo" src={img} alt="hola"/>
+        <a className="client-ref" href={re} >
+            <img className="client__logo" src={img} alt="hola"/>
+        </a>
     )
 }

@@ -3,6 +3,7 @@
     --content-margin : 10vw;
     --border : 2px solid var(--base-color-one);
     --animation-timer : .5s;
+    border-radius: 20px;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -18,14 +19,13 @@
     position: relative;
     object-fit: contain;
     display: flex;
-    width: 60%;
-    height:60%;
+    width: 50%;
+    height: 50%;
     user-select: none;
     filter: drop-shadow(0px 0px 10px #000);
     border-radius: 20px;
     opacity: 0;
     transition: opacity .5s, transform .5s;
-    cursor : grab;
 }
 
 .product-item__img__CLICKED{
@@ -79,7 +79,7 @@
 }
 
 .product-item__ACTIVATED > .product-item__backimg{
-    opacity:.4;
+    opacity:.5;
 }
 .product-item__ACTIVATED > .product-item__content{
     opacity: 1;
