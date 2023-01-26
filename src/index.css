@@ -33,5 +33,20 @@ body{
 }
 
 
+.main-container{
+  opacity: 0;
+  position: absolute;
+}
 
+.main-container__ACTIVATED{
+  opacity: 1;
+  position: static;
+}
 
+body{
+  overflow: hidden;
+}
+
+.body-loaded{
+  overflow: auto;
+}

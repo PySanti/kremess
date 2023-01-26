@@ -1,0 +1,132 @@
+.loader{
+    --top-moving : 8%;
+    --left-moving : 10%;
+    --animation-timer : .5s;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--base-font);
+    font-size: 5vw;
+}
+
+.loader__DEACTIVATED{
+    position: absolute;
+    opacity: 0;
+}
+.loader__DEACTIVATED > .text-1{
+    animation-name: none;
+}
+.loader__DEACTIVATED > .text-2{
+    animation-name: none;
+}
+.loader__DEACTIVATED > .mid-bar{
+    animation-name: none;
+}
+
+.text-1,
+.text-2{
+    transition : left var(--animation-timer), top var(--animation-timer);
+    position: relative;
+}
+
+.text-1{
+    animation-name: animationText1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.text-2{
+    animation-name: animationText2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.mid-bar{
+    width: 50%;
+    height: 1%;
+    background-color: var(--base-color-two);
+    transition: width var(--animation-timer), height var(--animation-timer);
+    animation-name: midBar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+@keyframes animationText1{
+    0%{
+        top: 0;
+        left : 0;
+    }
+    25%{
+        top: var(--top-moving);
+        left : calc(-1*var(--left-moving));
+        opacity: 0;
+    }
+    50%{
+        top: calc(2*var(--top-moving));
+        left : 0;
+        opacity: 0;
+    }
+    75%{
+        left : calc(1.5*var(--left-moving));
+        top: var(--top-moving);
+        opacity: 0;
+    }
+    100%{
+        left : 0;
+        top: 0;
+    }
+}
+
+@keyframes animationText2{
+    0%{
+        top: 0;
+        left : 0;
+        opacity: 0;
+    }
+    25%{
+        top: var(--top-moving);
+        left : calc(var(--left-moving));
+        opacity: 0;
+    }
+    50%{
+        top: calc(-2*var(--top-moving));
+        left : 0;
+        opacity: 1;
+    }
+    75%{
+        left : calc(-1.5*var(--left-moving));
+        top: var(--top-moving);
+        opacity: 0;
+    }
+    100%{
+        left : 0;
+        top: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes midBar{
+    0%{
+        width: 50%;
+        height: 1%;
+    }
+    25%{
+        width: 20%;
+        height: 3%;
+    }
+    50%{
+        width:50%;
+        height: 1%;
+    }
+    75%{
+        width: 20%;
+        height: 3%;
+    }
+    100%{
+        left : 50%;
+        top: 1%;
+    }
+}

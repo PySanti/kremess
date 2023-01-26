@@ -4,7 +4,7 @@ import "./HomeStyles.css"
 export function Home(){
     return (
         <header className="home-container container">
-            <div  className="home-container__backimg" alt=""/>
+            <div alt="Kremess es sinonimo de calidad" className="home-container__backimg" />
             <p className="home-container__paraph">
                 "Mas de 20 años alimentando los hogares venezolanos"
             </p>
