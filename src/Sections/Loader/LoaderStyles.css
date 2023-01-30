@@ -63,6 +63,11 @@
 
 
 
-
+@media (max-width : 900px) {
+    .bar{
+        width: 20vw;
+        height: 1vh;
+    }
+}
 
 
