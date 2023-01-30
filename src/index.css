@@ -10,6 +10,7 @@
 }
 
 body{
+  --base-font-size : 3vw;
   --base-font : "chicken";
   --base-font-2 : "sparkle";
   --base-color-one : #ed2127;
@@ -24,7 +25,7 @@ body{
 }
 
 .title{
-  font-size: 3vw;
+  font-size: var(--base-font-size);
   color : var(--base-color-one)
 }
 
