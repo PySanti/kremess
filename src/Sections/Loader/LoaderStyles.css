@@ -6,7 +6,7 @@
     width: 100vw;
     height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: var(--base-font);
@@ -21,6 +21,46 @@
 .loader__DEACTIVATED > .text-1{
     animation-name: none;
 }
+.loader__DEACTIVATED > .bar{
+    animation-name: none;
+}
+
+.bar{
+    margin-top: 5vh;
+    width: 10vw;
+    height: 2vh;
+    overflow: hidden;
+    background-color: #ddd;
+    border-radius: 10px;
+}
+
+.bar-content{
+    position: relative;
+    background-color: var(--base-color-one);
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    transition: left .5s;
+    animation-name: animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation {
+    0%{
+        left : 0;
+    }
+    25%{
+        left : -99%;
+    }
+    75%{
+        left : 100%;
+    }
+    100%{
+        left: 0;
+    }
+}
+
 
 
 
