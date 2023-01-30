@@ -34,5 +34,6 @@ root.render(
 );
 
 setTimeout(() => {
+  loadScreen()
   activateProducts(productItemClassName)
 }, 0);
