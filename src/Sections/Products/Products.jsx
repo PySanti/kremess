@@ -82,7 +82,7 @@ export function Products(){
                 <ProductItem 
                 name="CROUTON" 
                 img={imgsPath+"/Crotone/"+mainImg}
-                backimg={imgsPath+"/Crotone/"+mainImg}
+                backimg={imgsPath+"/Crotone/1.webp"}
                 descr="Disponible en presentacion de 160 gramos."
                 type="1"
                 />

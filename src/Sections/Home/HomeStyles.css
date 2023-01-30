@@ -4,6 +4,7 @@
 }
 
 .home-container__paraph{
+    color : var(--base-color-two);
     text-align: center;
     width: 50vw;
     position: absolute;

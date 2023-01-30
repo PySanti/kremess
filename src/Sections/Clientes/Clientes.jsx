@@ -6,7 +6,7 @@ export function Clientes(){
     const imgsTrag = "./clientesLogos/"
     return (
         <section id="clientes" className="clientes-container">
-            <h2 className="clientes-container__title titlebar">Donde encontrarnos</h2>
+            <h2 className="clientes-container__title titlebar">¡ENCUENTRANOS!</h2>
             <ul className="clientes-container__list">
                 <li>
                     <Client img={imgsTrag+"gamma.webp"}          re="https://www.google.com/search?client=ubuntu&hs=LS6&channel=fs&sxsrf=AJOqlzWNdOYFjBxUfDqBfKzxzESUntdISw:1674739836012&q=automercados+gama+caracas&npsic=0&rflfq=1&rldoc=1&rllag=10483164,-66845466,3409&tbm=lcl&sa=X&ved=2ahUKEwjs4pCIrOX8AhXvRzABHSzoAy8QtgN6BAgNEAE&biw=1360&bih=683&dpr=1#rlfi=hd:;si:;mv:[[10.50428707341401,-66.77487930522459],[10.415156014877102,-66.93624099956052],null,[10.459724743818194,-66.85556015239256],13]"/>

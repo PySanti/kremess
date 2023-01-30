@@ -4,6 +4,7 @@ import './ContactStyles.css'
 export function Contact(props){
     return (
         <div className="contact">
+            Contacto  : 
             <div className="contact-item">
                 <img className="phone-logo icon" src="./icons/phone.webp" alt="Movil : "/>
                 <div className="phone-number contact"> 
