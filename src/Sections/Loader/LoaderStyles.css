@@ -64,6 +64,9 @@
 
 
 @media (max-width : 900px) {
+    .loader{
+        font-size: 6vw;
+    }
     .bar{
         width: 20vw;
         height: 1vh;
