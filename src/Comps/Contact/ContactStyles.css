@@ -1,10 +1,20 @@
 .contact{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-title{
+    font-size : 2.5vw;
+}
+.contact__items-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
     margin-left: 2vw;
 }
-.contact > *{
+.contact-item{
     margin-top:1vh;
     display: flex;
     flex-direction: row;
