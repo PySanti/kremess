@@ -9,6 +9,7 @@
 }
 
 .clientes-container__list{
+    list-style: none;
     position: relative;
     display: flex;
     flex-direction: row;
