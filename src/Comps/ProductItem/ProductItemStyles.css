@@ -51,7 +51,7 @@
     height: 20%;
     transition: opacity .5s;
     color : #fff;
-    text-shadow : 0px 0px 2px #000;
+    text-shadow : 2px 2px 2px #000;
 }
 
 
