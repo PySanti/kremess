@@ -10,6 +10,7 @@ function paginaCargada(){
 }
 
 export function loadScreen(){
+    console.log("Hola")
     if (paginaCargada){
         const loader = document.getElementsByClassName(loaderClassName)[0]
         const mainContainer = document.getElementsByClassName(mainContainerClassName)[0]
