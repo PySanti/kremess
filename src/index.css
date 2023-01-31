@@ -69,3 +69,13 @@ body{
 .body-loaded{
   overflow: auto;
 }
+
+@media (max-width : 900px) {
+  body{
+    --base-font-size : 5vw;
+  }
+  .titlebar{
+    font-size: 7vw;
+  }
+  
+}

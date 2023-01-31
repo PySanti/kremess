@@ -5,7 +5,6 @@ import { Products } from './Sections/Products/Products';
 import { Clientes } from "./Sections/Clientes/Clientes"
 import './index.css';
 import {ContactContainer} from "./Sections/ContactContainer/ContactContainer"
-import { activateProducts } from './Sections/Products/func/activateProducts';
 import { loadScreen } from './loadScreen';
 import { Loader } from './Sections/Loader/Loader';
 
@@ -35,5 +34,4 @@ root.render(
 
 setTimeout(() => {
   loadScreen()
-  activateProducts(productItemClassName)
 }, 0);

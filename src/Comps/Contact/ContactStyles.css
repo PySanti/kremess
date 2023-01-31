@@ -36,3 +36,13 @@
     font-size: 1.5vw;
     margin-left: 1vw;
 }
+
+@media (max-width : 900px){
+    .contact{
+        font-size: 3vw;
+    }
+    .contact-title{
+        font-size: 5vw;
+    }
+
+}
