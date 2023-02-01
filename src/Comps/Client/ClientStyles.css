@@ -8,12 +8,12 @@
     align-items: center;
     text-align: center;
     font-family: var(--base-font-2);
-    transition: filter .5s, margin .5s ;
+    transition: filter .5s, transform .5s ;
 }
 
 .client__logo:hover{
-    filter: drop-shadow(0px 0px 10px var(--base-color-two));
-    margin-left : 2vw;
+    filter: drop-shadow(1px 1px 3px #333);
+    transform: scale(1.2,1.2);
 }
 
 .client-ref{

@@ -26,6 +26,30 @@ export function Clientes(){
                 <li>
                     <Client img={imgsTrag+"santarosa.webp"}      re="https://www.google.com/search?q=automercados+santarosa&client=ubuntu&channel=fs&biw=960&bih=968&tbm=lcl&sxsrf=AJOqlzUzXtUJlQZpn5Btjm_09kkMdU7kLQ%3A1674740266185&ei=KoLSY_2FC8L9wbkP0Ny66AY&ved=0ahUKEwj9wqDVreX8AhXCfjABHVCuDm0Q4dUDCAg&uact=5&oq=automercados+santarosa&gs_lcp=Cg1nd3Mtd2l6LWxvY2FsEAMyBwgAEA0QgAQ6BAgjECc6CggAEIAEEBQQhwI6BQgAEIAEOgYIABAWEB46AggmOgUIIRCgAVCBCVjeEWDREmgCcAB4AIABqgGIAb0KkgEDMC45mAEAoAEBwAEB&sclient=gws-wiz-local"/>
                 </li>
+
+
+                <li>
+                    <Client img={imgsTrag+"emporium.webp"}      re="https://www.google.com/maps/search/automercados+emporium/@10.4729373,-66.5915143,13.96z"/>
+                </li>
+                <li>
+                    <Client img={imgsTrag+"licarch.webp"}      re="https://www.google.com/maps/place/Licarch/@10.427467,-66.8470381,14.67z/data=!4m5!3m4!1s0x8c2af7bf2e033f23:0x7c46256e2ae9df72!8m2!3d10.4271168!4d-66.83773"/>
+                </li>
+                <li>
+                    <Client img={imgsTrag+"luz.webp"}      re="https://www.google.com/maps/search/automercados+luz/@10.4738476,-66.8620983,12.87z"/>
+                </li>
+                <li>
+                    <Client img={imgsTrag+"minegocio.webp"}      re="https://www.google.com/maps/search/automercados+mi+negocio/@10.4740272,-66.8620984,12z/data=!3m1!4b1"/>
+                </li>
+                <li>
+                    <Client img={imgsTrag+"paraiso.webp"}      re="https://www.google.com/maps/place/AUTOMERCADOS+EL+PARAISO/@8.2302047,-70.8294928,15.83z/data=!4m5!3m4!1s0x8e64e9cb0187531b:0x8b16e39502d8a272!8m2!3d8.2335232!4d-70.8267115"/>
+                </li>
+                <li>
+                    <Client img={imgsTrag+"plansuarez.webp"}      re="https://www.google.com/maps/search/automercados+plansuarez/@10.4420513,-66.8359906,12.83z"/>
+                </li>
+                <li>
+                    <Client img={imgsTrag+"santapaula.webp"}      re="https://www.google.com/maps/place/Supermercado+Santa+Paula/@10.461049,-66.8379306,17z/data=!3m1!4b1!4m5!3m4!1s0x8c2a586d6bb4e275:0xee52e11d4811916a!8m2!3d10.4610437!4d-66.8337044"/>
+                </li>
+
             </ul>
         </section>
     )
