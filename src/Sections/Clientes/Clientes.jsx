@@ -41,16 +41,10 @@ export function Clientes(){
                     <Client img={imgsTrag+"minegocio.webp"}      re="https://www.google.com/maps/search/automercados+mi+negocio/@10.4740272,-66.8620984,12z/data=!3m1!4b1"/>
                 </li>
                 <li>
-                    <Client img={imgsTrag+"paraiso.webp"}      re="https://www.google.com/maps/place/AUTOMERCADOS+EL+PARAISO/@8.2302047,-70.8294928,15.83z/data=!4m5!3m4!1s0x8e64e9cb0187531b:0x8b16e39502d8a272!8m2!3d8.2335232!4d-70.8267115"/>
-                </li>
-                <li>
                     <Client img={imgsTrag+"plansuarez.webp"}      re="https://www.google.com/maps/search/automercados+plansuarez/@10.4420513,-66.8359906,12.83z"/>
                 </li>
                 <li>
                     <Client img={imgsTrag+"santapaula.webp"}      re="https://www.google.com/maps/place/Supermercado+Santa+Paula/@10.461049,-66.8379306,17z/data=!3m1!4b1!4m5!3m4!1s0x8c2a586d6bb4e275:0xee52e11d4811916a!8m2!3d10.4610437!4d-66.8337044"/>
-                </li>
-                <li>
-                    <Client img={imgsTrag+"unicasa.webp"}      re="https://www.google.com/search?q=automercados+unicasa+&client=ubuntu&hl=es&biw=1360&bih=683&tbm=lcl&sxsrf=AJOqlzXbV8hgQVxLqKaZkJsTcOkLXI60sQ%3A1675267320774&ei=-IzaY4eDL4r_wbkP76-CYA&ved=0ahUKEwiH37uM2fT8AhWKfzABHe-XAAwQ4dUDCAg&uact=5&oq=automercados+unicasa+&gs_lcp=Cg1nd3Mtd2l6LWxvY2FsEAMyBAgjECcyBQgAEIAEMgUIABCABDIFCAAQgAQyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yAggmMgIIJjICCCZQ3AVY3AVg9QZoAXAAeACAAYEBiAH5AZIBAzAuMpgBAKABAcABAQ&sclient=gws-wiz-local#rlfi=hd:;si:;mv:[[10.526124583672914,-66.73546561622052],[10.347849480065545,-67.0581890048924],null,[10.436999803986291,-66.89682731055646],12]"/>
                 </li>
                 <li>
                     <Client img={imgsTrag+"unicasa.webp"}      re="https://www.google.com/search?q=automercados+unicasa+&client=ubuntu&hl=es&biw=1360&bih=683&tbm=lcl&sxsrf=AJOqlzXbV8hgQVxLqKaZkJsTcOkLXI60sQ%3A1675267320774&ei=-IzaY4eDL4r_wbkP76-CYA&ved=0ahUKEwiH37uM2fT8AhWKfzABHe-XAAwQ4dUDCAg&uact=5&oq=automercados+unicasa+&gs_lcp=Cg1nd3Mtd2l6LWxvY2FsEAMyBAgjECcyBQgAEIAEMgUIABCABDIFCAAQgAQyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yAggmMgIIJjICCCZQ3AVY3AVg9QZoAXAAeACAAYEBiAH5AZIBAzAuMpgBAKABAcABAQ&sclient=gws-wiz-local#rlfi=hd:;si:;mv:[[10.526124583672914,-66.73546561622052],[10.347849480065545,-67.0581890048924],null,[10.436999803986291,-66.89682731055646],12]"/>
