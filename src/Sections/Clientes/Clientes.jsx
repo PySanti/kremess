@@ -49,7 +49,15 @@ export function Clientes(){
                 <li>
                     <Client img={imgsTrag+"santapaula.webp"}      re="https://www.google.com/maps/place/Supermercado+Santa+Paula/@10.461049,-66.8379306,17z/data=!3m1!4b1!4m5!3m4!1s0x8c2a586d6bb4e275:0xee52e11d4811916a!8m2!3d10.4610437!4d-66.8337044"/>
                 </li>
-
+                <li>
+                    <Client img={imgsTrag+"unicasa.webp"}      re="https://www.google.com/search?q=automercados+unicasa+&client=ubuntu&hl=es&biw=1360&bih=683&tbm=lcl&sxsrf=AJOqlzXbV8hgQVxLqKaZkJsTcOkLXI60sQ%3A1675267320774&ei=-IzaY4eDL4r_wbkP76-CYA&ved=0ahUKEwiH37uM2fT8AhWKfzABHe-XAAwQ4dUDCAg&uact=5&oq=automercados+unicasa+&gs_lcp=Cg1nd3Mtd2l6LWxvY2FsEAMyBAgjECcyBQgAEIAEMgUIABCABDIFCAAQgAQyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yAggmMgIIJjICCCZQ3AVY3AVg9QZoAXAAeACAAYEBiAH5AZIBAzAuMpgBAKABAcABAQ&sclient=gws-wiz-local#rlfi=hd:;si:;mv:[[10.526124583672914,-66.73546561622052],[10.347849480065545,-67.0581890048924],null,[10.436999803986291,-66.89682731055646],12]"/>
+                </li>
+                <li>
+                    <Client img={imgsTrag+"unicasa.webp"}      re="https://www.google.com/search?q=automercados+unicasa+&client=ubuntu&hl=es&biw=1360&bih=683&tbm=lcl&sxsrf=AJOqlzXbV8hgQVxLqKaZkJsTcOkLXI60sQ%3A1675267320774&ei=-IzaY4eDL4r_wbkP76-CYA&ved=0ahUKEwiH37uM2fT8AhWKfzABHe-XAAwQ4dUDCAg&uact=5&oq=automercados+unicasa+&gs_lcp=Cg1nd3Mtd2l6LWxvY2FsEAMyBAgjECcyBQgAEIAEMgUIABCABDIFCAAQgAQyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yAggmMgIIJjICCCZQ3AVY3AVg9QZoAXAAeACAAYEBiAH5AZIBAzAuMpgBAKABAcABAQ&sclient=gws-wiz-local#rlfi=hd:;si:;mv:[[10.526124583672914,-66.73546561622052],[10.347849480065545,-67.0581890048924],null,[10.436999803986291,-66.89682731055646],12]"/>
+                </li>
+                <li>
+                    <Client img={imgsTrag+"midespensa.webp"}      re="https://www.google.com/search?q=automercados+Mi+despensa&client=ubuntu&hl=es&biw=1360&bih=683&tbm=lcl&sxsrf=AJOqlzWbj8_mskkyV40Jv4TtHlkc35B71A%3A1675267742085&ei=no7aY-fyBKqYwbkP28GP6AI&ved=0ahUKEwjnua7V2vT8AhUqTDABHdvgAy0Q4dUDCAg&uact=5&oq=automercados+Mi+despensa&gs_lcp=Cg1nd3Mtd2l6LWxvY2FsEAMyBwgAEB4QogQyBQgAEKIEMgUIABCiBDIFCAAQogQyBQgAEKIEOgQIIxAnUMEKWNIZYOwcaAFwAHgAgAGtAYgBvAWSAQMwLjWYAQCgAQHAAQE&sclient=gws-wiz-local#rlfi=hd:;si:;mv:[[10.491553099999999,-66.8605152],[10.4816595,-66.94362199999999]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:10"/>
+                </li>
             </ul>
         </section>
     )
