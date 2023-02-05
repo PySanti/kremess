@@ -1,8 +1,6 @@
 
 .product-item{
-    --margin : 10vh;
-    margin-top: var(--margin);
-    margin-bottom: var(--margin);
+
     width: 100vw;
     height: 100vh;
     display: flex;
